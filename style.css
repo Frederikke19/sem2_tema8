@@ -181,3 +181,108 @@ body {
 .soldout .price {
   color: #999999;
 }
+
+/**********************PRODUCT******************/
+
+.product-page {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 32px;
+  padding: 24px;
+  align-items: start;
+}
+
+.product-photo {
+  width: 100%;
+  display: block;
+}
+
+.product-details h2 {
+  font-size: 40px;
+  margin: 0 0 16px 0;
+}
+
+.product-details dl {
+  margin: 0 0 48px 0;
+}
+
+.product-details dt {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.product-details dd {
+  margin: 4px 0 0 20px;
+}
+
+.basket {
+  position: sticky;
+  top: 24px;
+  background-color: #ffffff;
+  color: #333333;
+  padding: 24px;
+  border-radius: 12px;
+  border-top: 6px solid #8d4395;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.basket-info {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #8d4395;
+  margin: 0 0 8px 0;
+}
+
+.basket h1 {
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 0 0 16px 0;
+}
+
+.basket-price {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 0 24px 0;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.basket form {
+  display: grid;
+  gap: 8px;
+}
+
+.basket label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.basket select {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.basket button {
+  margin-top: 16px;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #8d4395;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.basket button:hover {
+  background-color: #6f3276;
+}
+
+.basket button:active {
+  transform: scale(0.98);
+}
